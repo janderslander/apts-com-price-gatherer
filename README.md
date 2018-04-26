@@ -20,7 +20,7 @@ pip install requests
 
 ## Installing / Usage
 
-Once you have the prerequsites installed you should be able to run the script from a terminal using ./apartments.py. The script can be run on an ad-hoc basis with no schedule or you can set up a cron job or similar to automatically run the script. The script is setup to check the CSV for entries from the current date. If there are already entries for today's date then the script will still run but will not modify the CSV file. 
+Once you have the prerequsites installed you should be able to run the script from a terminal using ./apartments.py. The script can be run on an ad-hoc basis with no schedule or you can set up a cron job or similar to automatically run the script. The script is setup to check the CSV for entries from the current date. If there are already entries for today's date then the script will still run but will not modify the CSV file. I haven't found an official rulebook on scraping webpages, but the consensus seems to be that you should respect others' servers and use APIs if you're going to be doing requests in more significant quantity. Please be sure you use this script responsibly. 
 
 ## License
 
